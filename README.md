@@ -42,9 +42,9 @@ The dashboard highlights how environmental impact and health risks are distribut
 ## 🧮 DAX Measures
 Custom DAX measures were used to enhance the analysis:
 
-Average PM2.5 exposure
-Population-weighted PM2.5 (reflecting real human exposure)
-Total population
+- Average PM2.5 exposure
+- Population-weighted PM2.5 (reflecting real human exposure)
+- Total population
 
 The population-weighted metric provides a more realistic perspective by accounting for where people actually live.
 
@@ -53,9 +53,9 @@ The cleaned dataset was loaded into a SQLite database to demonstrate SQL queryin
 
 Example analyses included:
 
-Identifying the most polluted countries
-Comparing CO₂ emissions per capita
-Filtering highly populated countries with high pollution levels
+- Identifying the most polluted countries
+- Comparing CO₂ emissions per capita
+- Filtering highly populated countries with high pollution levels
 
 ## 🔍 Key Insights
 1. Wealth vs CO₂ Emissions
