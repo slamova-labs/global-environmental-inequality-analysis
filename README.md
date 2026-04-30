@@ -28,10 +28,10 @@ All datasets were merged by country and year (2019) to ensure consistency.
 ## 📊 Dashboard
 An interactive dashboard was created in Power BI to visualize key relationships:
 
-GDP per capita vs air pollution (PM2.5)
-Global distribution of pollution
-Top 10 most polluted countries
-Population-weighted exposure
+- GDP per capita vs air pollution (PM2.5)
+- Global distribution of pollution
+- Top 10 most polluted countries
+- Population-weighted exposure
 
 The dashboard highlights how environmental impact and health risks are distributed across countries.
 
