@@ -1,84 +1,81 @@
-# 🌍 Global Environmental Inequality: Who Pays the Price?
-## 📌 Overview
+# 🌍 Global Environmental Inequality
 
-This project explores the relationship between economic development, air pollution, and human well-being across countries.
+Data analytics project exploring the relationship between PM2.5 air pollution, socioeconomic inequality, and population exposure using Python, SQL, and Power BI
 
-The analysis focuses on answering questions:
-
-- How does economic development relate to environmental impact?
-- Do wealthier countries experience cleaner air?
-- Where is the human impact of pollution the greatest?
-
-## 📊 Data Sources
-The analysis is based on publicly available datasets from Our World in Data:
-
-- CO₂ emissions per capita
-- GDP and population
-- PM2.5 air pollution exposure
-- Life expectancy
-
-All datasets were merged by country and year (2019) to ensure consistency.
-
-## 🛠️ Tools & Technologies
-- Python (pandas, matplotlib)
-- SQL (SQLite)
-- Power BI (data visualization, DAX)
-- Jupyter Notebook
-
-## 📊 Dashboard
-An interactive dashboard was created in Power BI to visualize key relationships:
-
-- GDP per capita vs air pollution (PM2.5)
-- Global distribution of pollution
-- Top 10 most polluted countries
-- Population-weighted exposure
-
-The dashboard highlights how environmental impact and health risks are distributed across countries.
-
-## 📷 Dashboard Preview
+## 📊 Interactive Dashboard
 
 ![Dashboard](images/dashboard.png)
 
-## 🧮 DAX Measures
-Custom DAX measures were used to enhance the analysis:
+## 📌 Overview
 
-- Average PM2.5 exposure
-- Population-weighted PM2.5 (reflecting real human exposure)
-- Total population
+This project investigates how air pollution exposure differs across countries with varying income levels and population density. The analysis highlights environmental inequality patterns and demonstrates how data analytics can support evidence-based decision-making.
 
-The population-weighted metric provides a more realistic perspective by accounting for where people actually live.
+## 📊 Executive Summary
 
-## 🗄️ SQL Component
-The cleaned dataset was loaded into a SQLite database to demonstrate SQL querying.
+### Key Findings
+- Countries with lower GDP per capita generally showed higher exposure to PM2.5 pollution.
+- Densely populated lower-income regions experienced disproportionately high environmental risk.
+- Significant regional disparities were identified between developed and developing economies.
+- Pollution exposure patterns revealed strong correlations with socioeconomic inequality indicators.
 
-Example analyses included:
+### Why It Matters
+The findings demonstrate how environmental and socioeconomic data can be combined to better understand public health and inequality challenges.
 
-- Identifying the most polluted countries
-- Comparing CO₂ emissions per capita
-- Filtering highly populated countries with high pollution levels
+## 🛠️ Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- SQL
+- Power BI
+- Matplotlib / Seaborn
+- Jupyter Notebook
+
+## 🗂️ Dataset
+
+The project combines publicly available datasets containing:
+- PM2.5 pollution levels
+- GDP per capita
+- Population statistics
+- Regional environmental indicators
+
+## ⚙️ Project Workflow
+
+1. Data collection and cleaning
+2. Data preprocessing and normalization
+3. Exploratory data analysis
+4. Correlation analysis
+5. Dashboard development
+6. Insight generation and visualization
 
 ## 🔍 Key Insights
-1. Wealth vs CO₂ Emissions
 
-Wealthier countries tend to produce more CO₂ emissions per capita. However, emissions vary significantly across countries with similar income levels.
+### Income vs Pollution
+Lower-income regions generally experienced higher pollution exposure levels.
 
-2. Wealth vs Air Pollution
+### Population Density
+Urbanized regions showed significantly increased PM2.5 concentration.
 
-In contrast, PM2.5 exposure decreases as GDP per capita increases. This suggests that richer countries tend to have cleaner air. 
+### Regional Disparities
+Developing economies demonstrated stronger environmental inequality patterns compared to developed regions.
 
-3. Population Exposure
+## 💡 Recommendations
 
-The highest number of people exposed to air pollution is concentrated in middle-income countries.
+- Improve environmental monitoring in vulnerable regions.
+- Prioritize pollution reduction initiatives in densely populated areas.
+- Combine environmental and socioeconomic data in public policy planning.
 
-4. Pollution and Health
+## 🧠 Skills Demonstrated
 
-Higher exposure to PM2.5 is associated with lower life expectancy, highlighting the human cost of environmental degradation.
+- Data cleaning and preprocessing
+- Exploratory data analysis
+- SQL querying
+- Data visualization
+- Dashboard development
+- Analytical storytelling
+  
+## ✅ Conclusion
 
-## ⚖️ Conclusion
-
-Environmental impact is unevenly distributed across the world.
-
-While wealthier countries contribute more to global emissions, the health burden of pollution is often greater in less developed and rapidly growing regions.
+This project demonstrates how data analytics can uncover relationships between environmental and socioeconomic inequality while supporting data-driven decision-making through visualization and exploratory analysis.
 
 ## 📁 Project Structure
 ````
@@ -96,10 +93,10 @@ global-enviro-project/
 │
 └── README.md
 ````
-
 ## 👩‍💻 Author
-This project was created as part of a personal data portfolio to demonstrate skills in data analysis, visualization, and storytelling.
 
-Kristyna Slamova
-- [LinkedIn](linkedin.com/in/kristýna-slámová-3a6905168)
+Kristýna Slámová  
+Aspiring Data Analyst
+
+- [LinkedIn](https://linkedin.com/in/kristýna-slámová)
 - [GitHub](https://github.com/slamova-labs)
